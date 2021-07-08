@@ -41,6 +41,7 @@ public class Demo {
 		this.studentId = studentId;
 		StudentName = studentName;
 		StudentAddress = studentAddress;
+		System.out.println("this is it");
 	}
 	
 	

@@ -24,7 +24,7 @@ public class DemoController {
 		Integer saveStudent = service.saveStudent(demo);
 		ResponseEntity<String> responseEntity = new ResponseEntity<>("student record saved successfully"+saveStudent, HttpStatus.OK);
 		
-		
+		System.out.println("hello shiva");
 		return responseEntity;
 		
 	}
